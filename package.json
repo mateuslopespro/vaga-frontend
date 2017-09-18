@@ -1,0 +1,23 @@
+{
+  "name": "vaga-frontend",
+  "version": "0.0.1",
+  "description": "Teste para candidatos à vaga de desenvolvedor front-end na Youzoom",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "node-sass app/scss -o app/css",
+    "watch-css": "npm run build-css && node-sass app/scss -o app/css --watch --recursive",
+    "dev-server": "browser-sync start --server 'app' --files 'app'",
+    "start": "npm-run-all -p watch-css dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youzoom/vaga-frontend.git"
+  },
+  "author": "Elmo Junior Ficagna @ Youzoom Soluções Web",
+  "homepage": "https://github.com/youzoom/vaga-frontend#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.1"
+  }
+}
