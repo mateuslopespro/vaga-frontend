@@ -1,5 +1,5 @@
 # Teste para vaga de desenvolvedor Front-end na Youzoom
-Este teste foi desenvolvido para testar de forma bastante simples os seus conhecimentos em Git, HTML, SASS e CSS, JavaScript e Linha de Comando e sua criatividade no desenvolvimento de soluções de interface de usuário.
+Este teste foi desenvolvido para testar de forma bastante simples os seus conhecimentos em Git, HTML, CSS com pré-compiladores (SASS), JavaScript e Linha de Comando e sua criatividade no desenvolvimento de soluções de interface de usuário.
 
 ## O que vem com este projeto?
  1. Servidor de desenvolvimento e live reload utilizando [BrowserSync](https://www.browsersync.io/) 
