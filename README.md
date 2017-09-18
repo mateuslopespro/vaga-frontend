@@ -1,5 +1,5 @@
 # Teste para vaga de desenvolvedor Front-end na Youzoom
-Esse teste foi desenvolvido para testar de forma bastante simples os seus conhecimentos em Git, HTML, SASS e CSS, JavaScript e Linha de Comando e sua criatividade no desenvolvimento de soluções de interface de usuário.
+Este teste foi desenvolvido para testar de forma bastante simples os seus conhecimentos em Git, HTML, SASS e CSS, JavaScript e Linha de Comando e sua criatividade no desenvolvimento de soluções de interface de usuário.
 
 ## O que vem com este projeto?
  1. Servidor de desenvolvimento e live reload utilizando [BrowserSync](https://www.browsersync.io/) 
@@ -26,7 +26,7 @@ Utilizando a estrutura de arquivos fornecida e editando a `app/index.html`, crie
  1. Teste sua página em vários browsers, garanta compatibilidade IE9+.
  2. Não utilize nenhum Framework CSS (Bootstrap, Foundation...). Queremos ver o seu código. :)
  3. Evite utilizar imagens, e se necessário utiliza-las garanta que elas estão otimizadas e em pastas separadas.
- 4. Se necessário você pode adicionar outras dependências (Jquery, Font-Awesome...) ao projeto. Se o fizer, não suba o código dessas dependências, utilize uma CDN ou a adicione ao `package.json` utilizando a intalação do npm (recomendável).
+ 4. Se necessário você pode adicionar outras dependências (Jquery, Font-Awesome...) ao projeto. Se o fizer, não suba o código dessas dependências, utilize uma CDN ou a adicione ao `package.json` utilizando a instalação do npm (recomendável).
 
 ## O que será avaliado?
  1. Criatividade, facilidade de utilização e boas práticas de arquitetura de informação na solução apresentada.
