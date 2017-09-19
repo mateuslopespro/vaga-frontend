@@ -35,10 +35,11 @@ Utilizando a estrutura de arquivos fornecida e editando a `app/index.html`, crie
 
 ## Posso ganhar "mais pontos"?
 Pode. As tarefas a seguir **não obrigatórias**, mas com certeza farão você se destacar:
- 1. Utilizar alguma metodologia de organização de CSS. Recomendamos o [BEM](http://getbem.com/introduction/).
- 2. Escrever JS para simular os processos de validação e processamento de pagamento.
- 3. Utilizar sintaxe atual (ES6) na escrita do seu JavaScript. Lembre-se de garantir a compatibilidade implementando um transpiler no projeto. Recomendamos o [Babel.](https://babeljs.io/)
- 4. Nos surpreender apresentando uma solução "fora da caixa".
+ 1. Criar sua página responsível, utilizando breakpoints para celulares e tablets.
+ 2. Utilizar alguma metodologia de organização de CSS. Recomendamos o [BEM](http://getbem.com/introduction/).
+ 3. Escrever JS para simular os processos de validação e processamento de pagamento.
+ 4. Utilizar sintaxe atual (ES6) na escrita do seu JavaScript. Lembre-se de garantir a compatibilidade implementando um transpiler no projeto. Recomendamos o [Babel.](https://babeljs.io/)
+ 5. Nos surpreender apresentando uma solução "fora da caixa".
 
 ## Tenho uma dúvida em como usar o [nome da dependência], e agora?
 Uma parte muito comum do dia-a-dia do trabalho é o aparecimento de dúvidas, e saber como procurar soluções é uma habilidade desejada. Todo este material possui links de referência para as páginas dos desenvolvedores, faça bom uso das documentações que eles fornecem. Tomamos cuidado de incluir o mínimo possível de ferramentas externas e que são utilizadas em quase todos os projetos front-end atualmente. Tire um tempo para conhece-los... Você ainda vai utiliza-los. ;)
