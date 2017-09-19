@@ -15,7 +15,7 @@ Este teste foi desenvolvido para testar de forma bastante simples os seus conhec
 7. Ao final da tarefa submeta as alterações como um **Pull Request**.
 
 ## Qual a minha tarefa principal?
-Utilizando a estrutura de arquivos fornecida e editando a `app/index.html`, crie um exemplo de uma página simples de coleta de dados de um cartão de crédito. Esta página deve conter obrigatoriamente:
+Utilizando a estrutura de arquivos fornecida e editando a `app/index.html`, crie um exemplo de uma **página simples para entrada de dados de um cartão de crédito**. Esta página deve conter obrigatoriamente:
  1. Seleção da bandeira do cartão (Utilize como exemplo Visa, Mastercard, Amex, Diners e Elo).
  2. Campos para Número do Cartão, Nome do Titular, Validade do Cartão e Código de Segurança.
  3. Campo de Feedback para informar erros de digitação ou campo em branco.
@@ -41,8 +41,8 @@ Pode. As tarefas a seguir **não obrigatórias**, mas com certeza farão você s
  4. Utilizar sintaxe atual (ES6) na escrita do seu JavaScript. Lembre-se de garantir a compatibilidade implementando um transpiler no projeto. Recomendamos o [Babel.](https://babeljs.io/)
  5. Nos surpreender apresentando uma solução "fora da caixa".
 
-## Tenho uma dúvida em como usar o [nome da dependência], e agora?
-Uma parte muito comum do dia-a-dia do trabalho é o aparecimento de dúvidas, e saber como procurar soluções é uma habilidade desejada. Todo este material possui links de referência para as páginas dos desenvolvedores, faça bom uso das documentações que eles fornecem. Tomamos cuidado de incluir o mínimo possível de ferramentas externas e que são utilizadas em quase todos os projetos front-end atualmente. Tire um tempo para conhece-los... Você ainda vai utiliza-los. ;)
+## Tenho uma dúvida em como usar a [nome da dependência], e agora?
+No dia-a-dia do trabalho é muito comum o surgimento de dúvidas. Saber como procurar soluções para estas dúvidas é uma habilidade desejada. Todo este material possui links de referência para as páginas dos desenvolvedores, faça bom uso das documentações que eles fornecem. Tomamos cuidado de incluir o mínimo possível de ferramentas externas e que são utilizadas em vários projetos front-end atualmente. Tire um tempo para conhecê-las. ;)
 
 ## Vou receber um feedback?
-Sim. Todos os Pull Requests serão avaliados e respondidos em até 3 dias úteis. Não se preocupe, mesmo que você não seja selecionado tomaremos cuidado de fornecer dicas que ajudarão no seu crescimento profissional.
+Sim. Todos os Pull Requests serão avaliados e respondidos em até 3 dias úteis. Não se preocupe, mesmo que você não seja selecionado tomaremos cuidado de fornecer dicas que o ajudarão no seu crescimento profissional.
