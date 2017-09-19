@@ -6,7 +6,7 @@
   "scripts": {
     "build-css": "node-sass app/scss -o app/css",
     "watch-css": "npm run build-css && node-sass app/scss -o app/css --watch --recursive",
-    "dev-server": "browser-sync start --server 'app' --files 'app'",
+    "dev-server": "browser-sync start --server app --files app",
     "start": "npm-run-all -p watch-css dev-server"
   },
   "repository": {
