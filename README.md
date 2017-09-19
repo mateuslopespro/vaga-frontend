@@ -7,12 +7,13 @@ Este teste foi desenvolvido para testar de forma bastante simples os seus conhec
 
 ## Como fazer este teste?
 1. Garanta que você possui o [Node.js](Node.js) e o NPM instalados e atualizados em seu sistema. Versões e documentação de instalação para Windows, macOS e Linux estão disponíveis.
-2. Faça um clone deste projeto utilizando o [Git](https://git-scm.com/) ou qualquer cliente Git de sua preferência.
-3. Instale as dependências executando `npm install` da pasta raiz do projeto.
-4. Inicie as tarefas de desenvolvimento executando `npm start`.
-5. Se tudo ocorreu bem uma janela do seu browser principal se abrirá.
-6. Use seu editor de preferência para editar e criar novos arquivos conforme a necessidade.
-7. Ao final da tarefa submeta as alterações como um **Pull Request**.
+2. Faça um fork deste projeto e utilizando o [Git](https://git-scm.com/) ou qualquer cliente de sua preferência faça um clone.
+3. Crie uma branch com o seu nome.
+4. Instale as dependências executando `npm install` da pasta raiz do projeto.
+5. Inicie as tarefas de desenvolvimento executando `npm start`.
+6. Se tudo ocorreu bem uma janela do seu browser principal se abrirá.
+7. Use seu editor de preferência para editar e criar novos arquivos conforme a necessidade.
+8. Ao final da tarefa submeta as alterações como um **Pull Request** para o projeto original.
 
 ## Qual a minha tarefa principal?
 Utilizando a estrutura de arquivos fornecida e editando a `app/index.html`, crie um exemplo de uma **página simples para entrada de dados de um cartão de crédito**. Esta página deve conter obrigatoriamente:
