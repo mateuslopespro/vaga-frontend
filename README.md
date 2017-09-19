@@ -19,7 +19,7 @@ Este teste foi desenvolvido para testar de forma bastante simples os seus conhec
 Utilizando a estrutura de arquivos fornecida e editando a `app/index.html`, crie um exemplo de uma **página simples para entrada de dados de um cartão de crédito**. Esta página deve conter obrigatoriamente:
  1. Seleção da bandeira do cartão (Utilize como exemplo Visa, Mastercard, Amex, Diners e Elo).
  2. Campos para Número do Cartão, Nome do Titular, Validade do Cartão e Código de Segurança.
- 3. Campo de Feedback para informar erros de digitação ou campo em branco.
+ 3. Estrutura de feedback para validação dos campos (erro na entrada de dados e campos em branco) e notificação de estado da operação de pagamento (sucesso/falha).
  4. Botão para concluir o pagamento.
  5. Estado de carregamento (loader) para o processamento da operação.
 
