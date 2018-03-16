@@ -5,18 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Teste Front-End @ Youzoom</title>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   </head>
   <body>
     
     <!-- O seu conteúdo HTML vai aqui. -->
 
-    <!-- Apague este trecho -->
-    <h1>Teste para a vaga de front-end da Youzoom</h1>
+    <div id="formularioCartao">
+      <form action="javascript:void(0);" method="post">
+        <div class="titulo">Preencha o formulário abaixo:</div>
+        <hr />
+        <section id="informacoesDigitadas">
+          <label for="nomeDoTitular">
+            Nome completo do titular:<br />
+            <input type="text" name="nomeDoTitular" id="nomeDoTitular" pattern="^[a-zA-Z]+$" required>
+          </label>
+          <br /><br />
+          <label for="numeroDoCartao">
+            Número do Cartão:<br />
+            <input type="text" name="numeroDoCartao" id="numeroDoCartao" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|(?:5[1-5][0-9]{2}|222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720)[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|6(?:011|5[0-9]{2})[0-9]{12}|(?:2131|1800|35\d{3})\d{11})$" required>
+          </label>
+          <br /><br />
+          <label for="codigoDeSeguranca">
+            Código de Segurança:<br />
+            <input type="text" name="codigoDeSeguranca" id="codigoDeSeguranca" pattern="^[0-9]{3,4}" required>
+          </label>
+          <br /><br />
+          <label for="validadeDoCartao">
+            Validade do Cartão:<br />
+            <input type="text" name="validadeDoCartao" id="validadeDoCartao" required><br />
+            <sup>(mês e ano)</sup>
+          </label>
+          <br /><br />
+        </section><!-- Fim da div informacoesDigitadas -->
+        <div class="titulo">Escolha a bandeira do cartão:</div>
+        <hr />
+        <section id="bandeiras">
+          <label for="visa" class="bandeira"><input type="radio" name="bandeira" id="visa" class="bandeiraOpcao" required><span>Visa</span></label><br />
+          <label for="mastercard" class="bandeira"><input type="radio" name="bandeira" id="mastercard" class="bandeiraOpcao" required><span>Mastercard</span></label><br />
+          <label for="amex" class="bandeira"><input type="radio" name="bandeira" id="amex" class="bandeiraOpcao" required><span>Amex</span></label><br />
+          <label for="diners" class="bandeira"><input type="radio" name="bandeira" id="diners" class="bandeiraOpcao" required><span>Diners</span></label><br />
+          <label for="elo" class="bandeira"><input type="radio" name="bandeira" id="elo" class="bandeiraOpcao" required><span>Elo</span></label><br />
+        </section><!-- Fim da div bandeiras -->
+        <br><br>
+        <button type="submit">Avançar</button>
+      </form>
+    </div><!-- Fim da div formularioCartao -->
 
-    <p>Parece que você tem tudo funcionando. Edite esta página HTML para fazer seu teste</p>
-    <!-- Apague até aqui -->
-
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="/js/main.js"></script>
-
   </body>
 </html>

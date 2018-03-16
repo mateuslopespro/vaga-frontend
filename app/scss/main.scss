@@ -5,3 +5,36 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+#formularioCartao {
+	background-color: #FFF;
+	margin: auto;
+	padding: 10px;
+	width: 290px;
+	.titulo{
+		font-size: 20px;
+	}
+	label{
+		cursor: pointer;
+	}
+	input[type="text"],input[type="date"]{
+		cursor: pointer;
+		line-height: 20px;
+		margin: 4px;
+		padding: 6px;
+		width: 200px;
+	}
+	.bandeira>span{
+		cursor: pointer;
+		display: inline-block;
+		width: 100px !important;
+	}
+	button{
+		cursor: pointer;
+		font-size: 20px;
+		line-height: 36px;
+		width: 100px;
+	}
+}
+.ui-datepicker-calendar {
+    display: none;
+    } 
